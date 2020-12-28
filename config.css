@@ -7,7 +7,7 @@
     --grey: #2e2e2f;
     --lightgrey: #3e3e3f;
     --white: #ffffff;
-    --purple: #6624e2;
+    --PastelRed: #6624e2;
     --green: #33FF00;
     --blue: #0066FF;
     --pink: #FF00FF;
@@ -17,20 +17,26 @@
     --offlinegrey: #919191;
     --ingamegreen: #90ba3c;
     --onlineblue: #5db2fe;
-    --yourcolor: #000000; /* make your own color */
+    --PastelRed: #d32f2f; /* make your own color */
     --invisiblegrey: rgba(62, 62, 62, 0.24);
     --invisibleblack: rgba(0, 0, 0, 0);
 
     /* FEATURE COLORS */
-    --scrollbar: var(--purple); /* Scrollbar color */
+    --scrollbar: var(--PastelRed); /* Scrollbar color */
     --backdropblur: var(--invisiblegrey); /* Blur color */
+<<<<<<< Updated upstream
     --libraryhome: var(--purple); /* Main library color */
     --progressbar: var(--purple); /* Progressbar color */
     --gamelist: var(--purple); /* Gamelist selected color */
+=======
+    --libraryhome: var(--PastelRed); /* Main library color */
+    --progressbar: var(--PastelRed); /* Progressbar color */
+    --gamelist: var(--PastelRed); /* Game list selected color */
+>>>>>>> Stashed changes
     --titlehover: var(--invisibleblack); /* Title hover background color */
-    --titlenamehover: var(--purple); /* Game list title hover name color */
+    --titlenamehover: var(--PastelRed); /* Game list title hover name color */
     --gamehover: var(--white); /* Game hover color */
-    --textcolor: var(--purple); /* Text color */
+    --textcolor: var(--PastelRed); /* Text color */
     --pending: var(--red); /* Text color for pending updates/downloads */
     --offline: var(--offlinegrey);; /* Offline avatar color */
     --ingame: var(--ingamegreen); /* In-game avatar color */
@@ -111,8 +117,8 @@
     /*********************/
     --ButtonPlay: var(--libraryhome); /* Play button color shade 1 */
     --ButtonPlay2: var(--libraryhome); /* Play button color shade 2 */
-    --ButtonPlayHover: #70d61d; /* Play button hover color shade 1 */
-    --ButtonPlayHover2: #01a75b; /* Play button hover color shade 2 */
+    --ButtonPlayHover: #d32f2f; /* Play button hover color shade 1 */
+    --ButtonPlayHover2: #be3939; /* Play button hover color shade 2 */
     
     --ButtonInstall: var(--libraryhome); /* Install button color shade 1 */
     --ButtonInstall2: var(--libraryhome); /* Install button color shade 2 */
